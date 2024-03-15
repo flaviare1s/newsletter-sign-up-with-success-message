@@ -766,6 +766,14 @@ video {
   .sm\:w-\[42\%\] {
     width: 42%;
   }
+
+  .sm\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .sm\:w-\[46\%\] {
+    width: 46%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -805,6 +813,14 @@ video {
     width: 95%;
   }
 
+  .md\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .md\:w-\[54\%\] {
+    width: 54%;
+  }
+
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -841,6 +857,53 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:my-\[98px\] {
+    margin-top: 98px;
+    margin-bottom: 98px;
+  }
+
+  .lg\:my-\[8px\] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .lg\:my-\[58px\] {
+    margin-top: 58px;
+    margin-bottom: 58px;
+  }
+
+  .lg\:my-\[28px\] {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  .lg\:my-\[48px\] {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:my-\[38px\] {
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+
+  .lg\:my-\[35px\] {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .lg\:mt-\[58px\] {
+    margin-top: 58px;
+  }
+
+  .lg\:mb-\[58px\] {
+    margin-bottom: 58px;
+  }
+
+  .lg\:mt-\[38px\] {
+    margin-top: 38px;
+  }
+
   .lg\:w-\[80\%\] {
     width: 80%;
   }
@@ -855,6 +918,10 @@ video {
 
   .lg\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .lg\:w-\[\%\] {
+    width: %;
   }
 
   .lg\:py-\[98px\] {
