@@ -790,6 +790,10 @@ video {
   .sm\:w-\[40\%\] {
     width: 40%;
   }
+
+  .sm\:w-\[43\%\] {
+    width: 43%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -847,6 +851,10 @@ video {
 
   .md\:w-\[52\%\] {
     width: 52%;
+  }
+
+  .md\:w-\[57\%\] {
+    width: 57%;
   }
 
   .md\:flex-row-reverse {
