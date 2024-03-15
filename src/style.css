@@ -6,3 +6,13 @@
     display: block;
 }
 
+.invalid {
+    background-color: rgba(255, 99, 71, 0.15);
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.invalid::placeholder {
+    color: tomato;
+}
+

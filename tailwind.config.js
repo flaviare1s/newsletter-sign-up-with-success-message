@@ -14,6 +14,7 @@ module.exports = {
         white: 'hsl(0, 0%, 100%)',
         dark: '#1E1E1E',
         dark_navy: '#242742',
+        rosa: '#FF527B'
       },
     },
   },
