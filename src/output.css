@@ -972,6 +972,10 @@ video {
     width: 57%;
   }
 
+  .lg\:w-\[63\%\] {
+    width: 63%;
+  }
+
   .lg\:py-\[98px\] {
     padding-top: 98px;
     padding-bottom: 98px;
