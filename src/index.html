@@ -14,33 +14,37 @@
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
-<body class="font-Roboto">
+<body class="font-Roboto bg-dark sm:bg-charcoal_grey flex flex-col justify-center items-center m-auto sm:h-screen">
 
   <!-- Sign-up form start -->
 
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
+  <section class="bg-white w-full sm:w-[90%] md:w-[80%] lg:w-[70%] flex flex-col sm:flex-row-reverse items-center justify-center sm:p-6 sm:rounded-[36px]">
+    <div class="sm:w-[40%]">
+      <img class="sm:hidden w-full" src="../assets/images/illustration-sign-up-mobile.svg" alt="Illustration Sign Up">
+      <img class="hidden sm:block w-full" src="../assets/images/illustration-sign-up-desktop.svg" alt="Illustration Sign Up">
+    </div>
+    <div class="sm:w-[60%] px-6 py-10 sm:p-0">
+      <h1 class="text-dark_navy font-bold text-[40px] sm:text-[56px]">Stay updated!</h1>
+      <p class="text-dark_navy text-base leading-[150%] py-6">Join 60,000+ product managers receiving monthly updates on:</p>
+      Product discovery and building what matters
+      Measuring to ensure updates are a success
+      And much more!
+      Email address
+      email@company.com
+      Subscribe to monthly newsletter
+    </div>
+  </section>
 
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
 
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
+  <section class="hidden bg-white w-full sm:w-1/2">
+    Thanks for subscribing!
+    A confirmation email has been sent to ash@loremcompany.com.
+    Please open it and click the button inside to confirm your subscription.
+    Dismiss message
+  </section>
 
   <!-- Success message end -->
   
