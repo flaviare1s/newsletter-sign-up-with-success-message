@@ -16,6 +16,10 @@ module.exports = {
         dark_navy: '#242742',
         rosa: '#FF527B'
       },
+      screens: {
+        'md-lg': {'min': '541px', 'max': '1023px'},
+        'xlg': {'min': '1439px'}
+      },
     },
   },
   plugins: [],
