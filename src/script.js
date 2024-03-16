@@ -21,7 +21,8 @@ function handleClick(event) {
 
 btnSub.addEventListener('click', handleClick)
 
-function goBack() {
+function goBack(event) {
+    event.preventDefault()
     section1.classList.remove('inactive')
     section2.classList.remove('active')
 }
